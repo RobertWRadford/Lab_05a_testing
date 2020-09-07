@@ -47,7 +47,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 	d = sum(c, d)[0];
 	var e = multiply(a, b)[0];
 	e = multiply(c, e)[0];
-	return([d, e, a + ' and ' + b + ' and ' + c + ' sum to ' + d + '.', 'the product of ' + a + ' and ' + b + ' and ' + c + ' is ' + e + '.']);
+	return([d, e, a + ' and ' + b + ' and ' + c + ' sum to ' + d + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + e + '.']);
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
